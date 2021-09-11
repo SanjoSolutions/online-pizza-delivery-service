@@ -19,3 +19,20 @@ export const restaurants = [
     ],
   },
 ]
+
+const totalNumberOfRestaurants = 20
+
+while (restaurants.length < totalNumberOfRestaurants) {
+  addRestaurant()
+}
+
+function addRestaurant() {
+  const id = restaurants.length + 1
+  const restaurant = {
+    id,
+    image: '/images/placeholder_restaurant.jpg',
+    name: `Placeholder Restaurant ${ id }`,
+    dishes: [],
+  }
+  restaurants.push(restaurant)
+}
