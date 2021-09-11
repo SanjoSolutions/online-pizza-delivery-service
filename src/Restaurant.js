@@ -6,14 +6,20 @@ export function Restaurant() {
   const params = useParams()
   const id = parseInt(params.id, 10)
   const restaurant = findRestaurant(id)
-  const { image } = restaurant
-  console.log('id', id)
+  const { image, name, dishes } = restaurant
   return (
-    <img
-      src={image}
-      alt="Restaurant"
-      height={320}
-      style={{ width: '100%', objectFit: 'cover' }}
-    />
+    <div>
+      <img
+        src={ image }
+        alt="Restaurant"
+        height={ 320 }
+        style={ { width: '100%', objectFit: 'cover' } }
+      />
+      <h1 className="mt-2">{ name }</h1>
+      <h2>Dishes</h2>
+      <ul>
+        { dishes.map(dish => <li>{ dish }</li>) }
+      </ul>
+    </div>
   )
 }

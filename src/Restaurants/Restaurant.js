@@ -15,7 +15,7 @@ export function Restaurant({ id, image, name, dishes }) {
           <h5 className="card-title">
             { name }
           </h5>
-          <p className="card-text">{ dishes }</p>
+          <p className="card-text">{ dishes.join(', ') }</p>
         </div>
       </Link>
     </div>
