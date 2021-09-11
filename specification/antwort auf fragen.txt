@@ -1,0 +1,13 @@
+Webapp (Website)
+
+PayPal
+
+Per E-Mail sollen die Bestellungen an die Pizzarias gesendet werden.
+
+Besteller und Pizzarias sollen sich registrieren können.
+
+Pizzarias sollen ihre Produkte eingeben können.
+(Diese sollen dann den Bestellern angezeigt werden).
+
+Besteller sollen eine Übersicht an offenen Pizzarias sehen können, die zu der Adresse des Bestellers
+liefern.

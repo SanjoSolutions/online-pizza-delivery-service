@@ -1,0 +1,21 @@
+Ich möchte eine App mit der Leute Pizza bestellen können.
+Man soll in der App bezahlen können.
+Die Bestellung soll an die Pizzaria gesendet werden.
+
+F: Eine App für welche Geräte (Desktop, Mobile (Android, iOS, Windows))?
+A: Webapp (Website)
+
+F: Mit welchen Bezahlmittlen (PayPal, Kreditkarte, Bankeinzug, Bitcoin)
+A: PayPal
+
+> Die Bestellung soll an die Pizzaria gesendet werden.
+F: Über welches Medium? (E-Mail, Übersichtsseite für Pizzaria als Teil der App)
+A: Per E-Mail sollen die Bestellungen an die Pizzarias gesendet werden.
+
+Besteller und Pizzarias sollen sich registrieren können.
+
+Pizzarias sollen ihre Produkte eingeben können.
+(Diese sollen dann den Bestellern angezeigt werden).
+
+Besteller sollen eine Übersicht an offenen Pizzarias sehen können, die zu der Adresse des Bestellers
+liefern.

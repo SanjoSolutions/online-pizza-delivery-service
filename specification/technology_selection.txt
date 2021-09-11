@@ -1,0 +1,3 @@
+PayPal API
+E-Mail
+Web (for website): HTML, CSS, JavaScript
