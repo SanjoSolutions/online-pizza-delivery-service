@@ -18,7 +18,7 @@ export function Restaurant() {
       <h1 className="mt-2">{ name }</h1>
       <h2>Dishes</h2>
       <ul>
-        { dishes.map(dish => <li>{ dish }</li>) }
+        { dishes.map((dish, index) => <li key={ index }>{ dish }</li>) }
       </ul>
     </div>
   )
