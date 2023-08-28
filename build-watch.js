@@ -3,4 +3,5 @@ import { config } from './esbuild.config.js'
 
 const context = await esbuild.context(config)
 
-context.watch()
+await context.watch()
+console.log('Watching for file changes...')
