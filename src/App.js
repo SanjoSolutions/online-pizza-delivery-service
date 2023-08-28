@@ -6,7 +6,13 @@ import React from 'react'
 
 export function App() {
   return (
-    <Router>
+    <Router
+      basename={
+        location.hostname === 'sanjosolutions.github.io'
+          ? '/online-pizza-delivery-service'
+          : '/'
+      }
+    >
       <div>
         <svg xmlns='http://www.w3.org/2000/svg' style={{ display: 'none' }}>
           <symbol id='logo' viewBox='0 0 135.46667 135.46667'>
