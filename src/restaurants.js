@@ -1,7 +1,7 @@
 export const restaurants = [
   {
     id: 1,
-    image: '/images/kitchen_restaurant.jpg',
+    image: 'images/kitchen_restaurant.jpg',
     name: 'Kitchen Restaurant',
     dishes: [
       'Kidney Beans',
@@ -12,10 +12,8 @@ export const restaurants = [
   },
   {
     id: 2,
-    image: '/images/wasser_restaurant.jpg',
+    image: 'images/wasser_restaurant.jpg',
     name: 'Wasser Restaurant',
-    dishes: [
-      'Wasser aus der Leitung',
-    ],
+    dishes: ['Wasser aus der Leitung'],
   },
 ]
