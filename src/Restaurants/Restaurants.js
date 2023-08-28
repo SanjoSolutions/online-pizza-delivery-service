@@ -1,17 +1,13 @@
 import { Restaurant } from './Restaurant.js'
 import { restaurants } from '../restaurants.js'
+import React from 'react'
 
 export function Restaurants() {
   return (
-    <div className="row row-cols-1 row-cols-md-3 row-cols-lg-4 g-4">
-      {
-        restaurants.map(
-          (restaurant, index) => <Restaurant
-            key={ restaurant.id }
-            { ...restaurant }
-          />,
-        )
-      }
+    <div className='row row-cols-1 row-cols-md-3 row-cols-lg-4 g-4'>
+      {restaurants.map((restaurant, index) => (
+        <Restaurant key={restaurant.id} {...restaurant} />
+      ))}
       {/*
       <nav class="mt-3" aria-label="Page navigation example">
         <ul class="pagination justify-content-center">
@@ -26,7 +22,7 @@ export function Restaurants() {
           </li>
         </ul>
       </nav>
-    */ }
+    */}
     </div>
   )
 }
